@@ -1,0 +1,18 @@
+{
+  "name": "@cordor/httpcodes",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://git.maybejules.com/juliette/httpcodes.git"
+  },
+  "license": "MIT",
+  "author": "Juliette Cordor",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.5"
+  }
+}
