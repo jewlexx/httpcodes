@@ -1,7 +1,14 @@
 {
   "name": "@cordor/httpcodes",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Constant HTTP status codes",
+  "keywords": [
+    "http",
+    "status",
+    "code",
+    "codes",
+    "httpcodes"
+  ],
   "repository": {
     "type": "git",
     "url": "https://git.maybejules.com/juliette/httpcodes.git"
@@ -9,6 +16,10 @@
   "license": "MIT",
   "author": "Juliette Cordor",
   "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "files": [
+    "/build"
+  ],
   "scripts": {
     "build": "tsc"
   },
