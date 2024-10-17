@@ -1,3 +1,8 @@
+/**
+ * Provides constant bindings of all documented HTTP status codes.
+ * @module
+ */
+
 // TODO: Add mdn reference url and docs
 
 /**
