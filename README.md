@@ -1,17 +1,27 @@
 # HTTP Codes
 
-Constant HTTP status codes.
+HTTP status code helpers.
 
 ## Installation
 
 ```bash
-npm install @cordor/httpcodes
+deno add @cordor/codes
+
+# Or
+
+npx jsr add @cordor/codes
 ```
 
 ## Usage
 
 ```ts
-import { OK } from "@cordor/httpcodes";
+import { HttpCode } from "@cordor/codes";
+
+console.log(HttpCode.Ok); // 200
+
+// Or with a constant
+
+import { OK } from "@cordor/codes/consts";
 
 console.log(OK); // 200
 ```
