@@ -6,7 +6,7 @@ import {
     Successful,
 } from "./consts.ts";
 
-export enum Httpcode {
+export enum HttpCode {
     // 1xx Informational
     Continue = Informational.CONTINUE,
     SwitchingProtocols = Informational.SWITCHING_PROTOCOLS,
