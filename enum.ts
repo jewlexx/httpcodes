@@ -1,9 +1,11 @@
 export enum Httpcode {
+    // 1xx Informational
     Continue = 100,
     SwitchingProtocols = 101,
     Processing = 102,
     EarlyHints = 103,
 
+    // 2xx Success
     Ok = 200,
     Created = 201,
     Accepted = 202,
@@ -15,6 +17,7 @@ export enum Httpcode {
     AlreadyReported = 208,
     ImUsed = 226,
 
+    // 3xx Redirection
     MultipleChoices = 300,
     MovedPermanently = 301,
     Found = 302,
@@ -24,6 +27,7 @@ export enum Httpcode {
     TemporaryRedirect = 307,
     PermanentRedirect = 308,
 
+    // 4xx Client Error
     BadRequest = 400,
     Unauthorized = 401,
     PaymentRequired = 402,
@@ -54,6 +58,7 @@ export enum Httpcode {
     RequestHeaderFieldsTooLarge = 431,
     UnavailableForLegalReasons = 451,
 
+    // 5xx Server Error
     InternalServerError = 500,
     NotImplemented = 501,
     BadGateway = 502,
