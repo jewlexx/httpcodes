@@ -9,10 +9,10 @@ for (const [key, enumValue] of Object.entries(HttpCode)) {
     continue;
   }
 
-  const upperSnakeCaseKey = snakeCase(key).toUpperCase();
-  const constValue = constCodes[upperSnakeCaseKey as keyof typeof constCodes];
-
   Deno.test(`${key} is ${enumValue}`, () => {
+    const upperSnakeCaseKey = snakeCase(key).toUpperCase();
+    const constValue = constCodes[upperSnakeCaseKey as keyof typeof constCodes];
+
     assertEquals(enumValue, constValue);
   });
 }
