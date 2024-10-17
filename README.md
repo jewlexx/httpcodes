@@ -5,7 +5,11 @@ Constant HTTP status codes.
 ## Installation
 
 ```bash
-npm install @cordor/httpcodes
+deno add @cordor/httpcodes
+
+# Or
+
+npx jsr add @cordor/httpcodes
 ```
 
 ## Usage

@@ -1,0 +1,8 @@
+{
+  "name": "@cordor/httpcodes",
+  "version": "0.1.0",
+  "license": "MIT",
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1"
+  }
+}
