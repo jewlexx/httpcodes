@@ -1,6 +1,6 @@
 # HTTP Codes
 
-Constant HTTP status codes.
+HTTP status code helpers.
 
 ## Installation
 
