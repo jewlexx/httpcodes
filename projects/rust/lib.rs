@@ -1,5 +1,4 @@
-//! This library is a collection of HTTP Code constants. Helpful for working with HTTP status codes.
-
+#![doc = include_str!("../../README.rust.md")]
 #![warn(clippy::all, clippy::pedantic, missing_docs, clippy::nursery)]
 #![no_std]
 

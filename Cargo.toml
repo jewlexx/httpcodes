@@ -14,8 +14,9 @@ include = [
 keywords = ["http", "web"]
 license = "MIT"
 name = "httpcodes"
+readme = "README.rust.md"
 repository = "https://github.com/jewlexx/htttpcodes"
-version = "0.1.0"
+version = "0.1.1"
 
 [lib]
 path = "projects/rust/lib.rs"
