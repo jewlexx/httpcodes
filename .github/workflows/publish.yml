@@ -5,6 +5,9 @@ on:
 
 jobs:
   publish:
+    strategy:
+      matrix:
+        project: ["deno"]
     runs-on: ubuntu-latest
 
     permissions:
@@ -18,6 +21,9 @@ jobs:
         uses: denoland/setup-deno@v2
         with:
           deno-version: v2.x
+
+      - name: Enter {{ matrix.project }} directory
+        run: cd projects/{{ matrix.project }}
 
       - name: Publish package
         run: deno publish
