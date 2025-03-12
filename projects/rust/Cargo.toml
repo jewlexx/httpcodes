@@ -1,0 +1,12 @@
+[package]
+edition = "2024"
+name = "httpcodes"
+version = "0.1.0"
+
+[features]
+
+[dependencies]
+
+[build-dependencies]
+heck = "0.5.0"
+serde_json = { version = "1.0", features = ["alloc"], default-features = false }
