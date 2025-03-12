@@ -1,5 +1,5 @@
-import { assertEquals } from "@std/assert";
-import { constantCase } from "@mesqueeb/case-anything";
+import { assertEquals } from "jsr:@std/assert";
+import { constantCase } from "jsr:@mesqueeb/case-anything";
 
 import { HttpCode } from "./enum.ts";
 import * as constCodes from "./consts.ts";

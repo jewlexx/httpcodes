@@ -1,28 +1,22 @@
 {
   "version": "4",
   "specifiers": {
-    "jsr:@mesqueeb/case-anything@^3.1.0": "3.1.0",
-    "jsr:@std/assert@1": "1.0.6",
-    "jsr:@std/internal@^1.0.4": "1.0.4"
+    "jsr:@mesqueeb/case-anything@*": "3.1.0",
+    "jsr:@std/assert@*": "1.0.11",
+    "jsr:@std/internal@^1.0.5": "1.0.5"
   },
   "jsr": {
     "@mesqueeb/case-anything@3.1.0": {
       "integrity": "0e463b752f95dbdfa42c97b0e60911170fd8206508522fffc23a9e83d63bb4c2"
     },
-    "@std/assert@1.0.6": {
-      "integrity": "1904c05806a25d94fe791d6d883b685c9e2dcd60e4f9fc30f4fc5cf010c72207",
+    "@std/assert@1.0.11": {
+      "integrity": "2461ef3c368fe88bc60e186e7744a93112f16fd110022e113a0849e94d1c83c1",
       "dependencies": [
         "jsr:@std/internal"
       ]
     },
-    "@std/internal@1.0.4": {
-      "integrity": "62e8e4911527e5e4f307741a795c0b0a9e6958d0b3790716ae71ce085f755422"
+    "@std/internal@1.0.5": {
+      "integrity": "54a546004f769c1ac9e025abd15a76b6671ddc9687e2313b67376125650dc7ba"
     }
-  },
-  "workspace": {
-    "dependencies": [
-      "jsr:@mesqueeb/case-anything@^3.1.0",
-      "jsr:@std/assert@1"
-    ]
   }
 }
