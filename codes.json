@@ -1,0 +1,285 @@
+[
+  {
+    "name": "Informational",
+    "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#informational_responses",
+    "range": "100",
+    "codes": [
+      {
+        "message": "Continue",
+        "code": 100
+      },
+      {
+        "message": "Switching Protocols",
+        "code": 101
+      },
+      {
+        "message": "Processing",
+        "code": 102
+      },
+      {
+        "message": "Early Hints",
+        "code": 103
+      }
+    ]
+  },
+  {
+    "name": "Successful",
+    "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#successful_responses",
+    "range": "200",
+    "codes": [
+      {
+        "message": "Ok",
+        "code": 200
+      },
+      {
+        "message": "Created",
+        "code": 201
+      },
+      {
+        "message": "Accepted",
+        "code": 202
+      },
+      {
+        "message": "Non Authoritative Information",
+        "code": 203
+      },
+      {
+        "message": "No Content",
+        "code": 204
+      },
+      {
+        "message": "Reset Content",
+        "code": 205
+      },
+      {
+        "message": "Partial Content",
+        "code": 206
+      },
+      {
+        "message": "Multi Status",
+        "code": 207
+      },
+      {
+        "message": "Already Reported",
+        "code": 208
+      },
+      {
+        "message": "Im Used",
+        "code": 226
+      }
+    ]
+  },
+  {
+    "name": "Redirection",
+    "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#redirection_messages",
+    "range": "300",
+    "codes": [
+      {
+        "message": "Multiple Choices",
+        "code": 300
+      },
+      {
+        "message": "Moved Permanently",
+        "code": 301
+      },
+      {
+        "message": "Found",
+        "code": 302
+      },
+      {
+        "message": "See Other",
+        "code": 303
+      },
+      {
+        "message": "Not Modified",
+        "code": 304
+      },
+      {
+        "message": "Use Proxy",
+        "code": 305
+      },
+      {
+        "message": "Temporary Redirect",
+        "code": 307
+      },
+      {
+        "message": "Permanent Redirect",
+        "code": 308
+      }
+    ]
+  },
+  {
+    "name": "Client Error",
+    "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#client_error_responses",
+    "range": "400",
+    "codes": [
+      {
+        "message": "Bad Request",
+        "code": 400
+      },
+      {
+        "message": "Unauthorized",
+        "code": 401
+      },
+      {
+        "message": "Payment Required",
+        "code": 402
+      },
+      {
+        "message": "Forbidden",
+        "code": 403
+      },
+      {
+        "message": "Not Found",
+        "code": 404
+      },
+      {
+        "message": "Method Not Allowed",
+        "code": 405
+      },
+      {
+        "message": "Not Acceptable",
+        "code": 406
+      },
+      {
+        "message": "Proxy Authentication Required",
+        "code": 407
+      },
+      {
+        "message": "Request Timeout",
+        "code": 408
+      },
+      {
+        "message": "Conflict",
+        "code": 409
+      },
+      {
+        "message": "Gone",
+        "code": 410
+      },
+      {
+        "message": "Length Required",
+        "code": 411
+      },
+      {
+        "message": "Precondition Failed",
+        "code": 412
+      },
+      {
+        "message": "Payload Too Large",
+        "code": 413
+      },
+      {
+        "message": "Uri Too Long",
+        "code": 414
+      },
+      {
+        "message": "Unsupported Media Type",
+        "code": 415
+      },
+      {
+        "message": "Range Not Satisfiable",
+        "code": 416
+      },
+      {
+        "message": "Expectation Failed",
+        "code": 417
+      },
+      {
+        "message": "Im A Teapot",
+        "code": 418
+      },
+      {
+        "message": "Misdirected Request",
+        "code": 421
+      },
+      {
+        "message": "Unprocessable Entity",
+        "code": 422
+      },
+      {
+        "message": "Locked",
+        "code": 423
+      },
+      {
+        "message": "Failed Dependency",
+        "code": 424
+      },
+      {
+        "message": "Too Early",
+        "code": 425
+      },
+      {
+        "message": "Upgrade Required",
+        "code": 426
+      },
+      {
+        "message": "Precondition Required",
+        "code": 428
+      },
+      {
+        "message": "Too Many Requests",
+        "code": 429
+      },
+      {
+        "message": "Request Header Fields Too Large",
+        "code": 431
+      },
+      {
+        "message": "Unavailable For Legal Reasons",
+        "code": 451
+      }
+    ]
+  },
+  {
+    "name": "Server Error",
+    "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#server_error_responses",
+    "range": "500",
+    "codes": [
+      {
+        "message": "Internal Server Error",
+        "code": 500
+      },
+      {
+        "message": "Not Implemented",
+        "code": 501
+      },
+      {
+        "message": "Bad Gateway",
+        "code": 502
+      },
+      {
+        "message": "Service Unavailable",
+        "code": 503
+      },
+      {
+        "message": "Gateway Timeout",
+        "code": 504
+      },
+      {
+        "message": "Http Version Not Supported",
+        "code": 505
+      },
+      {
+        "message": "Variant Also Negotiates",
+        "code": 506
+      },
+      {
+        "message": "Insufficient Storage",
+        "code": 507
+      },
+      {
+        "message": "Loop Detected",
+        "code": 508
+      },
+      {
+        "message": "Not Extended",
+        "code": 510
+      },
+      {
+        "message": "Network Authentication Required",
+        "code": 511
+      }
+    ]
+  }
+]
