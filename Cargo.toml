@@ -21,5 +21,5 @@ version = "0.1.0"
 path = "projects/rust/lib.rs"
 
 [build-dependencies]
-heck = "0.5.0"
+heck = "0.5"
 serde_json = { version = "1.0", features = ["alloc"], default-features = false }
