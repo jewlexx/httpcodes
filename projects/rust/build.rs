@@ -74,9 +74,12 @@ fn main() {
                     let happy_name = heck::AsTitleCase(&code.message);
                     format!(
                         "/// HTTP Code for {happy_name} ({code})\n\
+                        /// \n\
+                        /// See <{reference}> for more info \n\
                         pub const {const_name}: crate::Code = crate::Code {{ message: {:?}, code: {code} }};",
                         code.message,
-                        code = code.code
+                        reference = format_args!("https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/{}", code.code),
+                        code = code.code,
                     )
                 })
                 .collect::<Vec<_>>()
