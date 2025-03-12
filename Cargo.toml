@@ -1,3 +1,25 @@
-[workspace]
-members = ["projects/rust"]
-resolver = "2"
+[package]
+authors = ["Juliette Cordor <juliette@cordor.dev>"]
+build = "projects/rust/build.rs"
+categories = ["network-programming", "web-programming"]
+description = "HTTP status codes"
+edition = "2024"
+include = [
+    "projects/rust/*",
+    "Cargo.toml",
+    "README.md",
+    "LICENSE",
+    "codes.json",
+]
+keywords = ["http", "web"]
+license = "MIT"
+name = "httpcodes"
+repository = "https://github.com/jewlexx/htttpcodes"
+version = "0.1.0"
+
+[lib]
+path = "projects/rust/lib.rs"
+
+[build-dependencies]
+heck = "0.5.0"
+serde_json = { version = "1.0", features = ["alloc"], default-features = false }

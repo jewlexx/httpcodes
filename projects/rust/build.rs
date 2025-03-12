@@ -1,6 +1,6 @@
 use std::io::Write;
 
-include!("./src/decl.rs");
+include!("./decl.rs");
 const CODES_JSON: &str = include_str!("../../codes.json");
 
 fn map_code(code: &serde_json::Value) -> Code {
