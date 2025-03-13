@@ -1,4 +1,4 @@
-import { constantCase } from "jsr:@mesqueeb/case-anything";
+import { constantCase, upperCamelCase } from "jsr:@mesqueeb/case-anything";
 import codeRanges from "../codeRanges.ts";
 export const outputFileName = "consts.ts";
 
@@ -19,7 +19,7 @@ export const ${constantCase(code.message)} = ${code.code};\n`;
 * HTTP Codes for ${range.name} responses (${range.range})
 * @see {@link https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#information_responses}
 */
-export const ${constantCase(range.name)} = {
+export const ${upperCamelCase(range.name)} = {
 ${range.codes.map((code) => constantCase(code.message)).join(",\n")}
 };\n`;
 

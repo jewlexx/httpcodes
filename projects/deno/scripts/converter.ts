@@ -2,14 +2,14 @@
  * Converts the original consts file to a JSON file to be imported by alternative generators.
  */
 
-import { camelCase, capitalCase } from "@mesqueeb/case-anything";
+import { camelCase, capitalCase } from "jsr:@mesqueeb/case-anything";
 import {
   Informational,
   Successful,
   Redirection,
   ClientError,
   ServerError,
-} from "./consts.ts";
+} from "../consts.ts";
 
 const groups = {
   Informational,
