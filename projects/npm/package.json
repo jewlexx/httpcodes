@@ -1,5 +1,5 @@
 {
-  "name": "httpcodes",
+  "name": "@maybejules/httpcodes",
   "version": "0.1.0",
   "author": {
     "name": "Juliette Cordor",
@@ -15,6 +15,9 @@
     "dist",
     "README.md"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "exports": {
     ".": {
       "import": "./src/index.mjs",
