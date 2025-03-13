@@ -4,7 +4,7 @@
     ".": {
       "import": "./src/index.mjs",
       "require": "./dist/index.cjs",
-      "types": "./dist/index.d.ts"
+      "types": "./dist/npm/index.d.ts"
     }
   },
   "type": "module",
@@ -15,8 +15,10 @@
     "typescript": "^5"
   },
   "scripts": {
+    "types": "tsc",
     "build": "mkdir -p dist && bun run build:cjs && bun run build:esm",
     "build:esm": "bun build index.ts --target browser --footer '// Made with love by Juliette Cordor' --outfile dist/index.mjs --minify",
-    "build:cjs": "bun build index.ts --target browser --footer '// Made with love by Juliette Cordor' --outfile dist/index.cjs --minify --format cjs"
+    "build:cjs": "bun build index.ts --target browser --footer '// Made with love by Juliette Cordor' --outfile dist/index.cjs --minify --format cjs",
+    "clean": "rm -rf dist"
   }
 }

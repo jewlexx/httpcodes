@@ -1,3 +1,2 @@
-export * from "../deno/mod.ts";
-
+export * from "../deno/enum.ts";
 export * as consts from "../deno/consts.ts";
