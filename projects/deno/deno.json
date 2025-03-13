@@ -5,5 +5,8 @@
   "exports": {
     ".": "./mod.ts",
     "./consts": "./consts.ts"
+  },
+  "tasks": {
+    "generate": "deno run --allow-read --allow-write scripts/generate.ts"
   }
 }

@@ -1,5 +1,5 @@
 import { upperCamelCase, constantCase } from "jsr:@mesqueeb/case-anything";
-import codeRanges from "./codeRanges.ts";
+import codeRanges from "../codeRanges.ts";
 
 export const outputFileName = "enum.ts";
 
