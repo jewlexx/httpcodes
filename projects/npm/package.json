@@ -12,7 +12,8 @@
     "url": "git+https://github.com/jewlexx/httpcodes.git"
   },
   "files": [
-    "dist"
+    "dist",
+    "README.md"
   ],
   "exports": {
     ".": {

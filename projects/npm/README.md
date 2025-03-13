@@ -1,15 +1,25 @@
-# httpcodes
+# HTTP Codes
 
-To install dependencies:
+HTTP status code helpers.
 
-```bash
-bun install
-```
-
-To run:
+## Installation
 
 ```bash
-bun run index.ts
+npm i --save httpcodes
 ```
 
-This project was created using `bun init` in bun v1.2.4. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+## Usage
+
+```ts
+import { HttpCode } from "httpcodes";
+
+console.log(HttpCode.Ok); // 200
+
+// Or with a constant
+
+import { consts } from "httpcodes";
+
+console.log(consts.OK); // 200
+```
+
+**Made with 💗 by Juliette Cordor**
