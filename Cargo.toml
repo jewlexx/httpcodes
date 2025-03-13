@@ -4,13 +4,7 @@ build = "projects/rust/build.rs"
 categories = ["network-programming", "web-programming"]
 description = "HTTP status codes"
 edition = "2024"
-include = [
-    "projects/rust/*",
-    "Cargo.toml",
-    "README.md",
-    "LICENSE",
-    "codes.json",
-]
+include = ["projects/rust/*", "Cargo.toml", "LICENSE", "codes.json"]
 keywords = ["http", "web"]
 license = "MIT"
 name = "httpcodes"
