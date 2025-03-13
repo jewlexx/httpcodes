@@ -13,3 +13,6 @@
 *.swp
 
 # End of https://www.toptal.com/developers/gitignore/api/deno
+
+consts.ts
+enum.ts
