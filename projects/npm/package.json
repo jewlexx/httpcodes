@@ -15,8 +15,7 @@
     "typescript": "^5"
   },
   "scripts": {
-    "types": "tsc",
-    "build": "mkdir -p dist && bun run build:cjs && bun run build:esm",
+    "build": "mkdir -p dist && bun run tsc && bun run build:cjs && bun run build:esm",
     "build:esm": "bun build index.ts --target browser --footer '// Made with love by Juliette Cordor' --outfile dist/index.mjs --minify",
     "build:cjs": "bun build index.ts --target browser --footer '// Made with love by Juliette Cordor' --outfile dist/index.cjs --minify --format cjs",
     "clean": "rm -rf dist"
