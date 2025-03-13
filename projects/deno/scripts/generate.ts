@@ -11,4 +11,5 @@ await Deno.writeTextFile(
   resolve(outputDir, consts.outputFileName),
   constsOutput
 );
+
 await Deno.writeTextFile(resolve(outputDir, _enum.outputFileName), enumOutput);

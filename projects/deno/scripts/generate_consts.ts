@@ -1,6 +1,5 @@
 import { constantCase } from "jsr:@mesqueeb/case-anything";
 import codeRanges from "../codeRanges.ts";
-
 export const outputFileName = "consts.ts";
 
 export function generateConsts() {
