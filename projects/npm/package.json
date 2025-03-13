@@ -1,0 +1,14 @@
+{
+  "name": "httpcodes",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "scripts": {
+    "build": "bun build index.ts --target browser --footer '// Made with love by Juliette Cordor' --outdir dist --outfile index.js --minify"
+  }
+}
