@@ -11,6 +11,9 @@
     "type": "git",
     "url": "git+https://github.com/jewlexx/httpcodes.git"
   },
+  "files": [
+    "dist"
+  ],
   "exports": {
     ".": {
       "import": "./src/index.mjs",
