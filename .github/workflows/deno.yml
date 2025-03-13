@@ -33,6 +33,9 @@ jobs:
       - name: Enter deno directory
         run: cd projects/deno
 
+      - name: Generate files
+        run: deno run generate
+
       - name: Verify formatting
         run: deno fmt --check
 

@@ -25,5 +25,8 @@ jobs:
       - name: Enter {{ matrix.project }} directory
         run: cd projects/{{ matrix.project }}
 
+      - name: Generate files
+        run: deno run generate
+
       - name: Publish package
         run: deno publish

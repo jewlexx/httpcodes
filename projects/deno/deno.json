@@ -7,8 +7,7 @@
     "./consts": "./consts.ts"
   },
   "tasks": {
-    "generate": "deno run --allow-read --allow-write scripts/generate.ts",
-    "prepublish": "deno run --allow-read --allow-write scripts/generate.ts"
+    "generate": "deno run --allow-read --allow-write scripts/generate.ts"
   },
   "publish": {
     "exclude": ["scripts", "!enum.ts", "!consts.ts", "codeRanges.ts"]
