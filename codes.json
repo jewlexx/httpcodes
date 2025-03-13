@@ -2,7 +2,7 @@
   {
     "name": "Informational",
     "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#informational_responses",
-    "range": "100",
+    "range": "1XX",
     "codes": [
       {
         "message": "Continue",
@@ -25,7 +25,7 @@
   {
     "name": "Successful",
     "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#successful_responses",
-    "range": "200",
+    "range": "2XX",
     "codes": [
       {
         "message": "Ok",
@@ -72,7 +72,7 @@
   {
     "name": "Redirection",
     "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#redirection_messages",
-    "range": "300",
+    "range": "3XX",
     "codes": [
       {
         "message": "Multiple Choices",
@@ -111,7 +111,7 @@
   {
     "name": "Client Error",
     "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#client_error_responses",
-    "range": "400",
+    "range": "4XX",
     "codes": [
       {
         "message": "Bad Request",
@@ -234,7 +234,7 @@
   {
     "name": "Server Error",
     "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#server_error_responses",
-    "range": "500",
+    "range": "5XX",
     "codes": [
       {
         "message": "Internal Server Error",
